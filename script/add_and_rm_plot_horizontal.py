@@ -159,7 +159,7 @@ def all_remove_data():
         set_remove_target("", "", plot_list.options[0])
         remove_data()
 
-# corabolate widgets and callbacks
+# collaborate widgets and callbacks
 root_path_input.on_change('value', search_data_from_input_path)
 file_list.on_change('value', set_load_target)
 plot_list.on_change('value', set_remove_target)
